@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <testitem id="1">
+        <title>离线日志</title>
+        <content>开机默认离线日志不启动，默认adb服务启动</content>
+    </testitem>
+    <testitem id="2">
+        <title>USB调试</title>
+        <content>无sim卡开机，默认USB调试不启动</content>
+    </testitem>
+    <testitem id="3">
+        <title>设置</title>
+        <content>存储总容量正确，累加容量正确</content>
+    </testitem>
+    <testitem id="4">
+        <title>设置</title>
+        <content>apn显示正常，CMNET无法加代理</content>
+    </testitem>
+    <testitem id="5">
+        <title>桌面检查</title>
+        <content>桌面空图标检查</content>
+    </testitem>
+    <testitem id="6">
+        <title>输入法</title>
+        <content>默认输入法是讯飞输入法</content>
+    </testitem>
+    <testitem id="7">
+        <title>联系人</title>
+        <content>复制手机联系人到SIM卡联系人</content>
+    </testitem>
+    <testitem id="8">
+        <title>联系人</title>
+        <content>新建/修改SIM卡联系人全字段保存后查看</content>
+    </testitem>
+</resources>

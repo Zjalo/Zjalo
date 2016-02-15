@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">自动化测试工具</string>
+    <string name="title_activity_autotestmode">autotestmode</string>
+    <string name="title_activity_logredriector">LogredriectorActivity</string>
+</resources>

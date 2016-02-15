@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zhangjinlu.automatictest">
+
+    <uses-permission android:name="yulong.permission.ACCESS_YLPARAMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- 读取通讯录权限 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" /> <!-- 写入通讯录权限 -->
+    <uses-permission android:name="android.permission.READ_SETTINGS" /> <!-- 读取设置权限 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- 写入设置权限 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AutotestModeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AutotestItemDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AutotestActivities.ManualModeMainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AutotestActivities.SettingStorageActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AutotestActivities.LogcatActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AutotestActivities.UsbActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AutotestActivities.APNActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
